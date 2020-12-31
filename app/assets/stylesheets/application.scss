@@ -62,9 +62,9 @@ turbo-frame:hover .square {
 }
 
 body {
-	background: linear-gradient(-90deg, #BCC4DB, #C0A9B0, #7880B5, #6987C9, #6BBAEC);
+	background: linear-gradient(-180deg, #C0A9B0, #7880B5, #6987C9, #6BBAEC);
 	background-size: 400% 400%;
-	animation: gradient 45s ease infinite;
+	animation: hue 1s ease infinite;
 }
 
 @keyframes gradient {
