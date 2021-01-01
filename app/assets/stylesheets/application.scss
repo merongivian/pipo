@@ -51,6 +51,13 @@ h1 {
 	background: linear-gradient(-180deg, #BCC4DB, #C0A9B0, #7880B5, #6987C9, #6BBAEC);
 	background-size: 400% 400%;
 	animation: hue 1s ease infinite;
+
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 100px;
+  }
 }
 
 turbo-frame {
@@ -58,7 +65,7 @@ turbo-frame {
 }
 
 turbo-frame:hover .square {
-  display: block;
+  display: flex;
 }
 
 body {
