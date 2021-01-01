@@ -40,6 +40,13 @@ h1 {
   justify-content: center;
   font-size: 43px;
   text-align: center;
+  color: blanchedalmond;
+
+	background: linear-gradient(-180deg, #BCC4DB, #C0A9B0, #7880B5, #6987C9, #6BBAEC);
+  background-clip: text;
+  text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: hue 7s ease-in-out infinite;
 }
 
 .square {
