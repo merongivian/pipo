@@ -1,6 +1,6 @@
 module ApplicationHelper
   def embedded_svg(filename, options = {})
-    asset = Rails.application.assets || Rails.application.config.assets
+    assets = Rails.application.assets || Rails.application.config.assets
     file = assets.find_asset(filename).source.force_encoding("UTF-8")
     doc = Nokogiri::HTML::DocumentFragment.parse file
     svg = doc.at_css "svg"
