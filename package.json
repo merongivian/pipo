@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/merongivian/pipo.git",
   "author": "Jose Anasco <joseanasco1@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@rails/webpacker": "5.2.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.1"
+  }
 }
